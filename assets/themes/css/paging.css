@@ -1,0 +1,25 @@
+.pagin {
+padding: 10px 0;
+font:bold 11px/30px arial, serif;
+}
+.pagin * {
+padding: 2px 6px;
+color:#0A7EC5;
+margin: 2px;
+border-radius:3px;
+}
+.pagin a {
+		border:solid 1px #8DC5E6;
+		text-decoration:none;
+		background:#F8FCFF;
+		padding:6px 7px 5px;
+}
+
+.pagin span, a:hover, .pagin a:active,.pagin span.current {
+		color:#FFFFFF;
+		background:-moz-linear-gradient(top,#B4F6FF 1px,#63D0FE 1px,#58B0E7);
+		    
+}
+.pagin span,.current{
+	padding:8px 7px 7px;
+}
